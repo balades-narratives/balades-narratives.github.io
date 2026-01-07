@@ -383,6 +383,14 @@ body.modal-open #hotspotLayer {
   color: white;
 }
 
+/* instagram button in info modal*/
+.insta {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 0.4em;
+}
+
 /* MAN logo */
 .fixed-logo {
   position: fixed;
