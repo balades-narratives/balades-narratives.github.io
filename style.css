@@ -391,6 +391,20 @@ body.modal-open #hotspotLayer {
   margin-right: 0.4em;
 }
 
+.instagram-link {
+  text-decoration: none;
+  color: var(--brand-blue);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.instagram-link:hover,
+.instagram-link:focus-visible {
+  text-decoration: underline; /* or keep none */
+  opacity: 0.8;
+}
+
 /* MAN logo */
 .fixed-logo {
   position: fixed;
