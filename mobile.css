@@ -339,6 +339,14 @@ body.modal-open #hotspotLayer {
   pointer-events: none;
 }
 
+/* instagram button in info modal*/
+.insta {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 0.4em;
+}
+
 /* Fade transition */
 .fade {
   transition: opacity 0.4s ease;
