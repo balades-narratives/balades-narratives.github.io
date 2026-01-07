@@ -385,10 +385,10 @@ body.modal-open #hotspotLayer {
 
 /* instagram button in info modal*/
 .insta {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   vertical-align: middle;
-  margin-right: 0.4em;
+  margin-right: 0.3em;
 }
 
 .instagram-link {
@@ -396,7 +396,7 @@ body.modal-open #hotspotLayer {
   color: var(--brand-blue);
   display: inline-flex;
   align-items: center;
-  gap: 0.4em;
+  gap: 0.3em;
 }
 
 .instagram-link:hover,
