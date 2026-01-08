@@ -428,8 +428,8 @@ body.modal-open #hotspotLayer {
 /* Scene-specific logo */
 .scene-logo {
   position: fixed;
-  bottom: 116px;         /* Above MAN logo (16px + 100px height) */
-  left: 16px;
+  bottom: 180px;         /* Above MAN logo (16px + 100px height) */
+  left: 24px;
   z-index: 30;
   opacity: 0;
   transition: opacity 0.4s ease;
