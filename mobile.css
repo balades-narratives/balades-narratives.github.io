@@ -80,6 +80,27 @@ header {
     fill: #fff;
 }
 
+/* Scene-specific logo */
+.scene-logo {
+  position: fixed;
+  top: 56px;            /* Just below header */
+  left: 16px;
+  z-index: 190;         /* Below header (200) but above content */
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.scene-logo.visible {
+  opacity: 1;
+}
+
+.scene-logo img {
+  height: 65px;         /* Smaller for mobile */
+  width: auto;
+  display: block;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
 /* Scene container - full viewport */
 #scene {
   position: fixed;
