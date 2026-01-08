@@ -425,6 +425,26 @@ body.modal-open #hotspotLayer {
   color: var(--brand-blue-dark);
 }
 
+/* Scene-specific logo */
+.scene-logo {
+  position: fixed;
+  bottom: 116px;         /* Above MAN logo (16px + 100px height) */
+  left: 16px;
+  z-index: 30;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.scene-logo.visible {
+  opacity: 1;
+}
+
+.scene-logo img {
+  height: 80px;
+  width: auto;
+  display: block;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
 
 /* Sidepanel */
 .sidepanel {
