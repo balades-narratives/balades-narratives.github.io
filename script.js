@@ -56,6 +56,24 @@ function loadScene(key) {
     imgEl.src = scene.image;
     layer.innerHTML = "";
 
+  // Update scene-specific logo
+  const sceneLogo = document.getElementById("sceneLogo");
+  const sceneLogoImg = sceneLogo.querySelector("img");
+  
+  if (key === "BN_D") {
+    sceneLogoImg.src = "images/BN_D-E.svg";
+  } else {
+    sceneLogoImg.src = "images/BN_C-E.svg";
+  }
+  
+  // Show logo after a brief delay
+  setTimeout(() => {
+    sceneLogo.classList.add("visible");
+  }, 500);
+
+  // Reset pan position
+  // ... rest of the function
+
     // Update sidepanel content
     if (scene.sidepanelContent) {
       sidepanelTitle.textContent = scene.sidepanelContent.title;
