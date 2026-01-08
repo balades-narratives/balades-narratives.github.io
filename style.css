@@ -428,7 +428,7 @@ body.modal-open #hotspotLayer {
 /* Scene-specific logo */
 .scene-logo {
   position: absolute;
-  bottom: 120px;        /* From bottom of image */
+  bottom: 180px;        /* From bottom of image */
   left: 20px;           /* From left of image */
   z-index: 20;          /* Above image, below modals */
   opacity: 0;
@@ -440,7 +440,7 @@ body.modal-open #hotspotLayer {
 }
 
 .scene-logo img {
-  height: 110px;
+  height: 98px;
   width: auto;
   display: block;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
