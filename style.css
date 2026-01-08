@@ -407,16 +407,17 @@ body.modal-open #hotspotLayer {
 
 /* MAN logo */
 .fixed-logo {
-  position: fixed;
-  bottom: 16px;
-  left: 16px;
-
+  position: absolute;
+  bottom: 6%;           /* Percentage of container height */
+  left: 1.5%;           /* Percentage of container width */
+  width: 8%;            /* Logo width as % of container */
   z-index: 30; /* above image, below modals */
   color: var(--brand-blue);
 }
 
 .fixed-logo svg {
-  height: 100px;      /* adjust as needed */
+  width: 100%;          /* Fill parent container */
+  height: auto;         /* Maintain aspect ratio */
   width: auto;
   display: block;
 }
@@ -428,7 +429,7 @@ body.modal-open #hotspotLayer {
 /* Scene-specific logo */
 .scene-logo {
   position: absolute;
-  bottom: 10%;           /* Percentage of container height */
+  bottom: 15%;           /* Percentage of container height */
   left: 1.5%;           /* Percentage of container width */
   z-index: 20;          /* Above image, below modals */
   width: 8%;            /* Logo width as % of container */
@@ -446,10 +447,6 @@ body.modal-open #hotspotLayer {
   width: auto;
   display: block;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
-}
-
-.scale {
-  color: var(--brand-blue);
 }
 
 /* Sidepanel */
