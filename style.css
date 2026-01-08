@@ -429,8 +429,8 @@ body.modal-open #hotspotLayer {
 /* Scene-specific logo */
 .scene-logo {
   position: absolute;
-  bottom: 16%;           /* Percentage of container height */
-  left: 1.5%;           /* Percentage of container width */
+  bottom: 18%;           /* Percentage of container height */
+  left: 1.8%;           /* Percentage of container width */
   z-index: 20;          /* Above image, below modals */
   width: 10%;            /* Logo width as % of container */
   opacity: 0;
