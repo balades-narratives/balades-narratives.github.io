@@ -410,7 +410,7 @@ body.modal-open #hotspotLayer {
   position: absolute;
   bottom: 4%;           /* Percentage of container height */
   left: 1.5%;           /* Percentage of container width */
-  width: 12%;            /* Logo width as % of container */
+  width: 10%;            /* Logo width as % of container */
   z-index: 30; /* above image, below modals */
   color: var(--brand-blue);
 }
@@ -432,7 +432,7 @@ body.modal-open #hotspotLayer {
   bottom: 16%;           /* Percentage of container height */
   left: 1.5%;           /* Percentage of container width */
   z-index: 20;          /* Above image, below modals */
-  width: 12%;            /* Logo width as % of container */
+  width: 10%;            /* Logo width as % of container */
   opacity: 0;
   transition: opacity 0.4s ease;
 }
