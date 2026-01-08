@@ -432,7 +432,6 @@ body.modal-open #hotspotLayer {
   left: 24px;
   z-index: 30;
   opacity: 0;
-  color: var(--brand-blue);
   transition: opacity 0.4s ease;
 }
 
@@ -445,6 +444,10 @@ body.modal-open #hotspotLayer {
   width: auto;
   display: block;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.scale {
+  color: var(--brand-blue);
 }
 
 /* Sidepanel */
