@@ -408,9 +408,9 @@ body.modal-open #hotspotLayer {
 /* MAN logo */
 .fixed-logo {
   position: absolute;
-  bottom: 6%;           /* Percentage of container height */
+  bottom: 4%;           /* Percentage of container height */
   left: 1.5%;           /* Percentage of container width */
-  width: 8%;            /* Logo width as % of container */
+  width: 12%;            /* Logo width as % of container */
   z-index: 30; /* above image, below modals */
   color: var(--brand-blue);
 }
@@ -429,10 +429,10 @@ body.modal-open #hotspotLayer {
 /* Scene-specific logo */
 .scene-logo {
   position: absolute;
-  bottom: 15%;           /* Percentage of container height */
+  bottom: 16%;           /* Percentage of container height */
   left: 1.5%;           /* Percentage of container width */
   z-index: 20;          /* Above image, below modals */
-  width: 8%;            /* Logo width as % of container */
+  width: 12%;            /* Logo width as % of container */
   opacity: 0;
   transition: opacity 0.4s ease;
 }
