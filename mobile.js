@@ -80,6 +80,21 @@ function loadScene(key) {
     imgEl.src = scene.image;
     layer.innerHTML = "";
 
+     // Update scene-specific logo
+  const sceneLogo = document.getElementById("sceneLogo");
+  const sceneLogoImg = sceneLogo.querySelector("img");
+  
+  if (key === "BN_D") {
+    sceneLogoImg.src = "images/BN_D-E_mob.svg";
+  } else {
+    sceneLogoImg.src = "images/BN_C-E_mob.svg";
+  }
+  
+  // Show logo after a brief delay
+  setTimeout(() => {
+    sceneLogo.classList.add("visible");
+  }, 500);
+
     // Reset pan position
     currentX = 0;
     currentY = 0;
