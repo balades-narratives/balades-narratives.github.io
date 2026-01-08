@@ -408,7 +408,7 @@ body.modal-open #hotspotLayer {
 /* MAN logo */
 .fixed-logo {
   position: absolute;
-  bottom: 4%;           /* Percentage of container height */
+  bottom: 3%;           /* Percentage of container height */
   left: 1.5%;           /* Percentage of container width */
   width: 10%;            /* Logo width as % of container */
   z-index: 30; /* above image, below modals */
