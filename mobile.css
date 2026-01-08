@@ -83,7 +83,7 @@ header {
 /* Scene-specific logo */
 .scene-logo {
   position: fixed;
-  top: 56px;            /* Just below header */
+  top: 65px;            /* Just below header */
   left: 16px;
   z-index: 190;         /* Below header (200) but above content */
   opacity: 0;
